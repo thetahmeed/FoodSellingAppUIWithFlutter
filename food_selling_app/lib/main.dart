@@ -11,8 +11,23 @@ class MyApp extends StatelessWidget {
     );
   }
 
+  ThemeData appTheme() {
+    return ThemeData(
+      primarySwatch: Colors.orange,
+      accentColor: Colors.orange,
+      textTheme: textTheme().apply(
+        bodyColor: HexColor(secondaryColor),
       ),
+      iconTheme: IconThemeData(
+        color: Colors.orange,
       ),
+    );
+  }
+
+  TextTheme textTheme() {
+    return TextTheme(
+      bodyText1: GoogleFonts.poppins(),
+      bodyText2: GoogleFonts.poppins(),
     );
   }
 }
