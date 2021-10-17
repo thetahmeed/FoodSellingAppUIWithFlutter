@@ -8,6 +8,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Food Selling App',
+      theme: appTheme(),
+      home: HomePage(),
     );
   }
 
