@@ -1,5 +1,5 @@
 # FoodSellingAppWithFlutter (UI Only)
-// A simple project where I try to design app for a Food Selling App
+// A simple project where I try to design app for a Food Selling Brand
 <br/>
 <br/>
 Design credit: https://www.figma.com/file/40DGtJinRyH1mLMkTrnr94/Stackfood <br/>
